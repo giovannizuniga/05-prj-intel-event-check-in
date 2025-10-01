@@ -109,7 +109,7 @@ form.addEventListener("submit", function (event) {
 
   // Check if goal reached
   if (count >= maxCount) {
-    // Find winning team
+    // Find winning team based on highest count
     const waterCount = parseInt(
       document.getElementById("waterCount").textContent
     );
